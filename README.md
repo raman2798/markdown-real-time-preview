@@ -6,9 +6,11 @@ The Markdown Real-Time Preview project consists of a frontend application (`port
 
 ## Project Structure
 
-markdown-real-time-preview/  
-├── portal/ # Frontend application  
-├── service/ # Backend service
+```
+markdown-real-time-preview/
+├── portal/    # Frontend application
+├── service/   # Backend service
+```
 
 ## Prerequisites
 
@@ -23,53 +25,70 @@ Ensure you have the following installed on your machine:
 
 1. Clone the repository:
 
-   `git clone https://github.com/raman2798/markdown-real-time-preview.git`
+   ```bash
+   git clone https://github.com/raman2798/markdown-real-time-preview.git
+   ```
 
 2. Navigate to the project directory:
-
-   `cd markdown-real-time-preview`
+   ```bash
+   cd markdown-real-time-preview
+   ```
 
 ### Setting Up the Frontend
 
 1. Navigate to the `portal` directory:
 
-   `cd portal`
+   ```bash
+   cd portal
+   ```
 
 2. Install dependencies:
 
-   `npm install`
+   ```bash
+   npm install
+   ```
 
 3. Set up environment variables:
-
-   `cp .env.sample .env`
-
+   ```bash
+   cp .env.sample .env
+   ```
    Open `.env` and modify the environment variables as needed.
 
 ### Setting the API URL
 
 Before starting the frontend server, set the API URL environment variable:
 
-`VITE_API_URL=<your-backend-url>`
+```bash
+VITE_API_URL=<your-backend-url>
+```
 
 ### Starting the Frontend Server
 
 To start the frontend server on localhost, run:
 
-`npm run dev`
+```bash
+npm run dev
+```
 
 ### Setting Up the Backend
 
 1. Navigate to the `service` directory:
 
-   `cd service`
+   ```bash
+   cd service
+   ```
 
 2. Install dependencies:
 
-   `npm install`
+   ```bash
+   npm install
+   ```
 
 3. Set up environment variables:
 
-   `cp .env.sample .env`
+   ```bash
+   cp .env.sample .env
+   ```
 
    Open `.env` and modify the environment variables as needed.
 
@@ -77,4 +96,6 @@ To start the frontend server on localhost, run:
 
 To start the backend server on localhost, run:
 
-`npm run start`
+```bash
+npm run start
+```
