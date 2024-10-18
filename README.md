@@ -8,13 +8,13 @@ The Markdown Real-Time Preview project consists of a frontend application (`port
 
 markdown-real-time-preview/  
 ├── portal/ # Frontend application  
-└── service/ # Backend service
+├── service/ # Backend service
 
 ## Prerequisites
 
 Ensure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) (version X.X.X)
+- [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
 ## Installation Instructions
@@ -31,13 +31,16 @@ Ensure you have the following installed on your machine:
 
 ### Setting Up the Frontend
 
-1. Navigate to the `portal` directory:  
+1. Navigate to the `portal` directory:
+
    `cd portal`
 
-2. Install dependencies:  
+2. Install dependencies:
+
    `npm install`
 
-3. Set up environment variables:  
+3. Set up environment variables:
+
    `cp .env.sample .env`
 
    Open `.env` and modify the environment variables as needed.
@@ -56,16 +59,19 @@ To start the frontend server on localhost, run:
 
 ### Setting Up the Backend
 
-1. Navigate to the `service` directory:  
+1. Navigate to the `service` directory:
+
    `cd service`
 
-2. Install dependencies:  
+2. Install dependencies:
+
    `npm install`
 
-3. Set up environment variables:  
+3. Set up environment variables:
+
    `cp .env.sample .env`
 
-   Open `.env` and modify the environment variables if needed
+   Open `.env` and modify the environment variables as needed.
 
 ### Starting the Backend Server
 
