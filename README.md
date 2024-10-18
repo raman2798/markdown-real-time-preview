@@ -49,12 +49,14 @@ Ensure you have the following installed on your machine:
    ```
 
 3. Set up environment variables:
+
    ```bash
    cp .env.sample .env
    ```
+
    Open `.env` and modify the environment variables as needed.
 
-### Setting the API URL
+4. Setting the API URL
 
 Before starting the frontend server, set the API URL environment variable:
 
