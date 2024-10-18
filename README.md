@@ -58,19 +58,19 @@ Ensure you have the following installed on your machine:
 
 4. Setting the API URL
 
-Before starting the frontend server, set the API URL environment variable:
+   Before starting the frontend server, set the API URL environment variable:
 
-```bash
-VITE_API_URL=<your-backend-url>
-```
+   ```bash
+   VITE_API_URL=<your-backend-url>
+   ```
 
-### Starting the Frontend Server
+   ### Starting the Frontend Server
 
-To start the frontend server on localhost, run:
+   To start the frontend server on localhost, run:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 ### Setting Up the Backend
 
@@ -94,10 +94,10 @@ npm run dev
 
    Open `.env` and modify the environment variables as needed.
 
-### Starting the Backend Server
+   ### Starting the Backend Server
 
-To start the backend server on localhost, run:
+   To start the backend server on localhost, run:
 
-```bash
-npm run start
-```
+   ```bash
+   npm run start
+   ```
